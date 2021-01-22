@@ -22,19 +22,19 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
+.header nav {
+    padding-top: 2%;
+    margin-left: auto;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header div ol {
-    list-style-type: menu;
+.header nav ol {
+    list-style-type: none;
 }
 
-.header div ol li {
+.header nav ol li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -132,6 +132,8 @@ p {
     margin: auto;
     max-width: 100%;
 }
+
+/* Some of the changes above in the benefit class and the next 3 blocks of code added to it is for the purpose of the verticle block to sit in the right place and it's contents to be displayed more symmetrical consistently  */
 
 .benefit-lead p {
     margin: auto;
